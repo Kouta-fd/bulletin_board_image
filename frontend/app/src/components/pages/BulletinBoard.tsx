@@ -50,7 +50,6 @@ export const BulletinBord: FC = () => {
         setImage(e.target.result);
       };
       reader.readAsDataURL(file);
-      e.target.value = "";
     }
   };
   useEffect(() => {
